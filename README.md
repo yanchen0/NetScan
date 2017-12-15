@@ -5,8 +5,6 @@
 1、malware-traffic 爬虫,  黑样本采集:
   		  
 ![Alt text](https://github.com/yanchen0/NetScan/blob/master/0.jpg)		 
-
-实现功能： re匹配，wget.exe方式下载、调用zip命令自动解压缩 [密码：infected]
   		  
 ![Alt text](https://github.com/yanchen0/NetScan/blob/master/1.jpg)		 
 
