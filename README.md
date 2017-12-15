@@ -1,15 +1,21 @@
-# Crawler
-Blacklist\ White list
+# NetScan		
 
-1¡¢malware-traffic ÅÀ³æ,  ºÚÑù±¾²É¼¯:
+  		  
+åˆ†å¸ƒå¼å¤šçº¿ç¨‹å…¨ç½‘æ‰«æ		 
+1ã€malware-traffic çˆ¬è™«,  é»‘æ ·æœ¬é‡‡é›†:
+  		  
+![Alt text](https://github.com/yanchen0/NetScan/blob/master/0.jpg)		 
 
-ÊµÏÖ¹¦ÄÜ£º reÆ¥Åä£¬wget.exe·½Ê½ÏÂÔØ¡¢µ÷ÓÃzipÃüÁî×Ô¶¯½âÑ¹Ëõ [ÃÜÂë£ºinfected]
+å®ç°åŠŸèƒ½ï¼š reåŒ¹é…ï¼Œwget.exeæ–¹å¼ä¸‹è½½ã€è°ƒç”¨zipå‘½ä»¤è‡ªåŠ¨è§£å‹ç¼© [å¯†ç ï¼šinfected]
+  		  
+![Alt text](https://github.com/yanchen0/NetScan/blob/master/1.jpg)		 
 
-![Alt text](https://github.com/yanchen0/Crawler/blob/master/1.jpg)
-
-
-
-1¡¢download.cnet.com ÅÀ³æ£¬ °×Ñù±¾²É¼¯:
-
-ÊµÏÖ¹¦ÄÜ£º reÆ¥Åä+BeautifulSoup, wget.exe[http_proxy] ·½Ê½ÏÂÔØ¡¢ È¥ÖØĞ£ÑéMYSQLÊı¾İ¿â¼ÇÂ¼ [Ãû³Æ,°æ±¾,´óĞ¡,³§ÉÌ,MD5]
-![Alt text](https://github.com/yanchen0/Crawler/blob/master/2.jpg)
+  		  
+å®ç°åŠŸèƒ½ï¼š		
+ -1ï¼štask_portscan.py ï¼šå‚æ•°-f ï¼ŒIPåœ°å€åˆ—è¡¨ [china_ip_list.txt] è¿›å…¥é˜Ÿåˆ— [ip_list] ï¼Œé™é¢ <20000æ¡ã€‚		
+  		  
+ -2ï¼šport_scan.py ï¼šè°ƒç”¨Nmapåº“, å–é˜Ÿåˆ—[china_ip_list.txt] åšå¼€å‘ç«¯å£æ‰«æï¼Œå°†ç»“æœå½•å…¥é˜Ÿåˆ— [result_port_scan]		
+  		  
+ -3ï¼šservice_scan.py ï¼šè·å–å¼€æ”¾ç«¯å£çš„é˜Ÿåˆ—  [result_port_scan] ,å†è¿›è¡Œæ‰«æï¼Œå°†[address\hostnames\ipv6\mac\os] ç³»ç»Ÿå…³é”®ä¿¡æ¯ä¿å­˜è‡³é˜Ÿåˆ—[result_service_scan]		 +1ã€download.cnet.com çˆ¬è™«ï¼Œ ç™½æ ·æœ¬é‡‡é›†:
+  		  
+ -4ï¼šhttp_scan.pyï¼š  ä¸ºservice_scan.pyçš„æ‰©å±•ï¼Œ è·å–httpæœåŠ¡çš„ç›¸å…³ä¿¡æ¯ã€‚
