@@ -11,6 +11,7 @@
 
 
 实现功能：		
+
 1：task_portscan.py ：参数-f ，IP地址列表 [china_ip_list.txt] 进入队列 [ip_list] ，限额 <20000条。		
 
 2：port_scan.py ：调用Nmap库, 取队列[china_ip_list.txt] 做开发端口扫描，将结果录入队列 [result_port_scan]		
